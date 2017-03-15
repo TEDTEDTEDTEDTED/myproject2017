@@ -8,7 +8,10 @@ public class people {
 	int children;
 	 public people(int women,int men,int children ,int numbers ){
 		  this.numbers=numbers;
-		  this.numbers=numbers;
+		  this.women=women;
+		  this.men=men;
+		  this.children=children;
+         
 			
 			
 			
@@ -19,7 +22,10 @@ public class people {
 		}
 	public static void main(String[] args) {
 	    
-	
 		
+		
+		
+	
+	}
 
 }
