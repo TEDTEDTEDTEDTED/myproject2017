@@ -16,8 +16,6 @@ public class People {
 			
 			
 			
-			
-			
 		}
 	public static void main(String[] args) {
 	    People P2 = new People(200,200,300); 
