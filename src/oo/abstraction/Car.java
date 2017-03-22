@@ -2,11 +2,11 @@ package oo.abstraction;
 
 public class Car {
 
-	 String brand;
+	
 	    int cc;
 	    String name;
 	    String type;
-	 public Car(String brand,String name,int cc){
+	 public Car(String type,String name,int cc){
 		    this.cc=cc;
 		    this. name=name;
 		    this. type=type;
