@@ -16,21 +16,30 @@ public class CarTester {
 		System.out.println(cars[ii].type);
 		
 		}
+	  c2.setMilage(555789789);
+		
+	  
 		class jjdfgfhjkhjkg{
 			
 			
 			
 			
 		}
+		
 
-	}
-
+	
+	
 	class JJdfgfg{
 		
 		
 		
 	}
 	JJdfgfg  hgh= new JJdfgfg();
+	
+	
+	
+	
+	
 	
 	
 	
