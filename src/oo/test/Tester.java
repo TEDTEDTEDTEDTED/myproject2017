@@ -28,19 +28,23 @@ public class Tester {
 		System.out.println(list.indexOf("kkjkhjkhjk"));
 		System.out.println(list.contains("77987"));
 		list.clear();
-		System.out.println(list);
+		System.out.print(list);
 	    Scanner uyrioyutio = new Scanner(System.in);
 	    list.add("335");
 		list.add("829");
 		list.add("886");
 		list.add("554");
-		String gdflgkgdfg = uyrioyutio.nextLine().substring( uyrioyutio.nextLine().length()-3);
+		String gdflgkgdfg = uyrioyutio.nextLine();
+		gdflgkgdfg=gdflgkgdfg.substring(gdflgkgdfg.length()-3);
+		
 		
 		for(int ii =0;ii<list.size();ii++){
-		if( gdflgkgdfg==list.get(ii))
+		if( gdflgkgdfg.equals(list.get(ii))){
 			System.out.println("中獎");
-
+            break;
 			
+		
+		}
 		
 	}
 
