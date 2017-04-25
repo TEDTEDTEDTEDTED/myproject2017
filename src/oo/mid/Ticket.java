@@ -3,23 +3,22 @@ public class Ticket {
     int id;
     String name;
     float price;
-    public void setid(int id){
+    public void setId(int id){
     	this.id=id;
     }
-    public void setname(String name){
+    public void setName(String name){
     	this.name=name;
     }
-    public void setprice(float price){
+    public void setPrice(float price){
     	this.price=price;
     }
-	public int getid(){
+	public int getId(){
 		return id;
 	}
-	public String getname(){
+	public String getName(){
 		return name;
 	}
-	public float getprice(){
+	public float getPrice(){
 		return price;
 	}
-	
 }
