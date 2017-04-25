@@ -1,5 +1,4 @@
 package oo.mid;
-
 public class Meal {
 int priceA=99;
 int priceB=120;
@@ -16,7 +15,6 @@ public Meal(int numberA,int numberB,int numberC){
 public void totalprices(){
 	total= priceA*numberA+priceB*numberB+priceC*numberC;
 }
-	
 public void setprice(int priceA,int priceB,int priceC){
 	this.priceA=priceA;
 	this.priceB=priceB;

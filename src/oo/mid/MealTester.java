@@ -1,7 +1,5 @@
 package oo.mid;
-
 public class MealTester {
-
 	public static void main(String[] args) {
 	  Meal A = new Meal(2,3,4);
 	  A.setprice(200, 300, 400);
@@ -11,7 +9,5 @@ public class MealTester {
 	  B.setprice(700,800 ,900 );
 	  B.totalprices();	
 	  System.out.println(B.total);
-
 	}
-
 }
