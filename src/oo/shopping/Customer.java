@@ -17,7 +17,7 @@ void print(int money){
 
 
 void print(){
-	System.out.println(amount+"  "+0+"  "+0);
+	System.out.println(amount+"\t"+0+"\t"+0);
 }
 	
 	

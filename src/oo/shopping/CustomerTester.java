@@ -15,14 +15,20 @@ public class CustomerTester {
 		list.add(new Customer(6000));
 		for(int GG =0;GG<list.size();GG++){
 			Customer cust = list.get(GG);
-			if(cust instanceof SilverCustomer && !(cust instanceof GoldenCustomer))
+			if(cust instanceof SilverCustomer && !(cust instanceof GoldenCustomer)){
 			System.out.print("*");
+			SilverCustomer HAHA =(SilverCustomer) cust; 
+			}
 			cust.print();
+			
 		}
 		for(Customer cust:list){
-			if(cust instanceof SilverCustomer && !(cust instanceof GoldenCustomer))
+			if(cust instanceof SilverCustomer && !(cust instanceof GoldenCustomer)){
+			SilverCustomer HAHA =(SilverCustomer) cust; 
 			System.out.print("*");
+			}
 			cust.print();
+			
 		}
 		
 		
