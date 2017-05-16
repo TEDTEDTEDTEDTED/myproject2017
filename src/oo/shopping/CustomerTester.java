@@ -19,6 +19,11 @@ public class CustomerTester {
 			System.out.print("*");
 			cust.print();
 		}
+		for(Customer cust:list){
+			if(cust instanceof SilverCustomer && !(cust instanceof GoldenCustomer))
+			System.out.print("*");
+			cust.print();
+		}
 		
 		
 		
