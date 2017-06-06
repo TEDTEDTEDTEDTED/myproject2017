@@ -15,7 +15,7 @@ public class SilverCustomer extends Customer {
 	void print(int money){
 		System.out.println(money*0.9+"  "+0);
 	}
-	void print(){
+	public void print(){
 		System.out.println(amount+"\t"+discount+"\t"+0);
 	}
 	

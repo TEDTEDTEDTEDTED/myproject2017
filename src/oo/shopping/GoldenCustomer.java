@@ -16,7 +16,7 @@ public class GoldenCustomer extends SilverCustomer {
 		System.out.println(money+"  "+money*0.9+"  "+money*0.05);
 	}
 	
-	void print(){
+	public void print(){
 		System.out.println(amount+"\t"+discount+"\t"+returnmoney);
 	}
 	
