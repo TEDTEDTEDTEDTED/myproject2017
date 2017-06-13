@@ -2,21 +2,17 @@ package oo.shopping2;
 
 import java.util.ArrayList;
 
-import oo.shopping.Customer;
-import oo.shopping.GoldenCustomer;
-import oo.shopping.SilverCustomer;
-
 
 public class Tester {
 
 	public static void main(String[] args) {
 		ArrayList<Customer> list =new ArrayList<>();
-		list.add(new Customer(6000));
+		list.add(new NormalCustomer(6000));
 		list.add(new SilverCustomer(8000));
 		list.add(new GoldenCustomer(10000));
 		list.add(new GoldenCustomer(15000));
 		list.add(new SilverCustomer(1000));
-		list.add(new Customer(6000));
+		list.add(new NormalCustomer(6000));
 		for(int GG =0;GG<list.size();GG++){
 			Customer cust = list.get(GG);
 			if(cust instanceof SilverCustomer && !(cust instanceof GoldenCustomer)){
