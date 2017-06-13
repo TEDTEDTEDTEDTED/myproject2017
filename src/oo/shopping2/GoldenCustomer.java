@@ -2,7 +2,10 @@ package oo.shopping2;
 
 public class GoldenCustomer extends SilverCustomer{
 	   double returnmoney=amount*0.05;
-	   
+		public GoldenCustomer(int amount) {
+			super(amount);
+			
+		}
 	@Override
 	public void print() {
 		// TODO Auto-generated method stub
